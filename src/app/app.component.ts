@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { NavSkeletonComponent } from './nav-skeleton/nav-skeleton.component';
 
 @Component({
   selector: 'app-root',
@@ -14,6 +15,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     RouterOutlet,
     MatSlideToggleModule,
     DashboardComponent,
+    NavSkeletonComponent,
   ],
 })
 export class AppComponent {
